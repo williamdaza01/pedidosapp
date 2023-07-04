@@ -28,7 +28,6 @@ venv/
 
 # Ignore cache files
 __pycache__/
-*.pyc
 
 # Ignore environment-specific configuration files
 .env
@@ -36,3 +35,4 @@ __pycache__/
 # Ignore sensitive information
 *.secret
 
+*.sqlite3
