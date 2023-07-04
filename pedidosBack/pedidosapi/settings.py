@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-ygq%ez3j6d2chpqx)w2o$55r!i=@(xfg4*7-z90i0ud&y(=o)4
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -134,6 +134,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
+    'https://pedidos-app-two.vercel.app'
 ]
 
 ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app']
